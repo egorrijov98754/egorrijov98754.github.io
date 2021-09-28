@@ -1,0 +1,358 @@
+body{
+	font-family: Arial, sans-serif;
+}
+nav{
+	width: 100%;
+	height: 60px;
+	background: #2a3e51;
+}
+
+.logo{
+	color: #fff;
+	font-size: 23.33px;
+	line-height: 60px;
+	padding-left: 388px;
+	float: left;
+}
+
+.menu{
+	float: left;
+	padding-left: 432px;
+
+}
+
+.menu li{
+	float: left;
+	line-height: 60px;
+	color: #fff;
+	margin-right: 40px;
+	font-size: 15px;
+	text-transform: uppercase;
+
+}
+
+.main{
+	width: 100%;
+	height: calc(100% - 60px);
+	background: url(../img/boy.png) 90% 100%/auto 85% no-repeat ,url(../img/bg.jpg) center/cover no-repeat;
+
+}
+
+.title_conteiner{
+	float: left;
+	margin: 432px 0px 0px 404px;
+	color: #213549;
+	text-align: center;
+
+}
+
+.title_conteiner h1{
+	font-size: 60px;
+	font-weight: bold;
+
+}
+
+.title_conteiner h4{
+	margin-top: 40px;
+	font-size: 22px;
+	color: #76828e;
+
+}
+
+.title_conteiner input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #89939d;
+	background: none;
+	border-radius: 5px;
+	color: #89939d;
+	font-size: 13px;
+	padding: 0px 16px;
+	margin: 58px 14px;
+}
+
+.title_conteiner1 p{
+	margin-left: 600px;
+	font-size: 15px;
+	color: #38485a;
+	font-size: 15px;
+	color: #38485b;
+}
+
+.p1{
+	margin-top: 25px;
+}
+
+.p2{
+	margin-top: 15px;
+}
+
+.title_conteiner1 h2{
+	margin-top: 105px;
+	margin-left: 950px;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #1a2f43;
+	background: url(../img/cherta.jpg) 1% 90%/10% 20% no-repeat;
+
+}
+
+.title_conteiner1 img{
+	margin-left: 920px;
+	margin-top: 30px;
+}
+
+.main1 input{
+	margin-left: 950px;
+	margin-top: 40px;
+	height: 30px;
+	text-align: center;
+	border: 2px solid #6f7180;
+	border-radius: 5px;
+}
+
+.main2nav{
+	background: url(../img/ноут.png) 16% 20%/auto 4% no-repeat,url(../img/знак.png) 39% 20%/auto 4% no-repeat,url(../img/ракета.png) 64% 20%/auto 4% no-repeat,url(../img/граммофон.png) 88% 20%/auto 4% no-repeat ,url(../img/fon.jpg) 100% 0%/100% auto no-repeat;
+	margin-top: 100px;
+	height: 100%;
+}
+
+.main2 h2{
+	margin-left: 875px;
+	font-size: 30px;
+	color: #1a2f43;
+	background: url(../img/cherta.jpg) 1% 90%/13% 20% no-repeat;
+}
+
+.main2nav li{
+	float: left;
+	line-height: 25px;
+	color: #37475a;
+	margin-right: 0px;
+	font-size: 15px;
+	margin-top: 230px;
+	margin-left: 270px;
+
+}
+
+.main2nav span{
+	margin-left: 20px;
+	font-size: 20px;
+	color: #e97700;
+}
+
+.main3 h2{
+	margin-bottom: 35px;
+	margin-left: 915px;
+	font-size: 35px;
+	text-transform: uppercase;
+	color: #2f4154;
+	background: url(../img/cherta.jpg) 1% 90%/10% 20% no-repeat;
+}
+
+.main3 img{
+	margin-left: 255px;
+	height: 750px;
+	width: 1500px;
+}
+
+.kaces{
+	margin-left: 650px;
+	margin-bottom: 43px;
+	font-size: 15px;
+	color: #38475a;
+}
+
+.client{
+	margin-left: 260px;
+	font-size: 15px;
+	color: #38485b;
+}
+
+.client1{
+	margin-left: 260px;
+	font-size: 25px ;
+	color: #2f4153;
+}
+
+.website{
+	margin-left: 260px;
+	font-size: 15px;
+	color: #38485b;
+}
+
+.website1{
+	margin-top: 15px;
+	margin-left: 260px;
+	font-size: 25px;
+	color: #2f4153;
+}
+
+.projekt1{
+	margin-left: 678px;
+	font-size: 30px;
+	color: #2f4153;
+}
+
+.projekt{
+	margin-left: 678px;
+	font-size: 20px;
+	color: #38485b;
+}
+
+.main3 input{
+	margin-left: 260px;
+	height: 50px;
+	width: 205px;
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+	border: 2px solid #00b6af;
+	background-color: #00b6af;
+	font-size: 15px;
+}
+
+.main4{
+	margin-top: 205px;
+	font-size: 35px;
+	color: #102032;
+	margin-left: 805px;
+
+}
+
+.form h3{
+	margin-top: 50px;
+	font-size: 25px;
+	color: #102032;
+	margin-left: 500px;
+	text-transform: uppercase;
+
+}
+
+.form select{
+	margin-top: 25px;
+	margin-left: 495px;
+	width: 890px;
+	height: 60px;
+	background: #eee;
+
+}
+
+.itog{
+	margin-top: 65px;
+	margin-left: 500px;
+	font-size: 25px;
+	color: #102031;
+
+}
+
+.stat{
+	margin-top: 155px;
+	background: url(../img/смайл.png) 16% 20%/auto 4% no-repeat,url(../img/скобки.png) 39% 20%/auto 4% no-repeat,url(../img/галочка.png) 61% 20%/auto 4% no-repeat,url(../img/кубок.png) 83% 20%/auto 4% no-repeat,url(../img/stat_fon.jpg) 100% 0%/100% auto no-repeat;
+	height: 100%;
+}
+
+.stat h2{
+	margin-left: 800px;
+	font-size: 35px;
+	color: #273b4e;
+	background: url(../img/cherta.jpg) 8% 90%/10% 20% no-repeat;
+}
+
+.stat h3{
+	float: left;
+	line-height: 25px;
+	color: #37475a;
+	margin-right: 0px;
+	font-size: 15px;
+	margin-top: 230px;
+	margin-left: 290px;
+
+}
+
+.otzv h2{
+	margin-left: 890px;
+	font-size: 30px;
+	background: url(../img/cherta.jpg) 1% 90%/10% 20% no-repeat;
+
+}
+
+.otzv img{
+	margin-top: 60px;
+	margin-left: 890px;
+
+}
+
+.otzv h4{
+	margin-top: 30px;
+	margin-left: 620px;
+	font-size: 15px;
+	color: #172c40;
+}
+
+.contakt{
+	margin-top: 150px;
+	background: url(../img/geo.png) 7% 35%/auto 3% no-repeat,url(../img/konvert.png) 20% 35%/auto 3% no-repeat,url(../img/truba.png) 32% 35%/auto 3% no-repeat,url(../img/fon_kont.png) 100% 100%/100% 100% no-repeat;
+	height: 100%;
+	width: 100%;
+
+}
+
+.kontakt{
+	margin-left: 850px;
+	font-size: 30px;
+	color: #fff;
+	background: url(../img/cherta.jpg) 2% 90%/10% 20% no-repeat;
+}
+
+.contakt h4{
+	margin-top: 30px;
+	margin-left: 780px;
+	color: #fff;
+}
+
+.contakt h3{
+	margin-top: 90px;
+	color: #fff;
+	float: left;
+	margin-left: 105px;
+	margin-top: 350px;
+}
+
+.message h2{
+	margin-top: 500px;
+	color: #fff;
+	font-size: 25px;
+	margin-left: 835px;
+}
+
+.name{
+	margin-left: 595px;
+	margin-top: 50px;
+	height: 35px;
+	width: 350px;
+}
+
+.Email{
+	height: 35px;
+	width: 350px;
+}
+
+.message textarea{
+	margin-left: 595px;
+	margin-top: 20px;
+}
+
+.otpravit{
+	margin-top: 30px;
+	margin-left: 900px;
+	height: 35px;
+	width: 120px;
+	text-align: center;
+	border-radius: 5px;
+
+}
+
+.map img{
+	width: 100%;
+}
