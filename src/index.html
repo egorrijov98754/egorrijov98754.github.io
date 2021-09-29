@@ -10,7 +10,9 @@
 
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>урок 2-HTML</title>
+	<title>Егор Рыжов - Веб-разработка</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -38,57 +40,57 @@
 	</div>
 
 	<div class="main1">
-		<div class="title_conteiner">
+		<div class="title_conteiner1">
 			<h2>Обо мне</h2>
-
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aliquam placeat veritatis amet laborum ullam, deserunt reiciendis, labore enim tenetur! Suscipit, doloremque! Repellat ut molestiae omnis quos voluptatibus voluptates dicta consequuntur expedita dolores commodi aperiam blanditiis, nulla laudantium odio harum exercitationem totam ad nostrum ullam. Rem, iste alias ab quisquam!</p>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, ea iusto? Eaque voluptatem, officiis laboriosam nobis, excepturi cupiditate fugiat commodi. Debitis ipsa accusamus explicabo officiis fugiat quae quod odio iste perspiciatis amet nam sit expedita libero aspernatur asperiores, laborum ducimus commodi blanditiis temporibus minus ea dolorum omnis repudiandae? Soluta quisquam ipsam possimus blanditiis, enim doloremque!</p>
+			<img src="img/boy_b-w.jpg" alt="">
+			<p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur autem vitae aliquid, distinctio cum dignissimos, eaque dolor magni. <br> Omnis quas soluta ea, facilis eos eligendi veniam ratione iure commodi quos. Alias doloribus, rerum consequatur consequuntur.</p>
+			<p class="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, ea iusto? Eaque voluptatem, officiis laboriosam nobis, excepturi cupiditate fugiat commodi. <br> Debitis ipsa accusamus explicabo officiis fugiat quae quod odio iste perspiciatis amet nam sit expedita.</p>
 		</div>
 
 		<input type="submit" value="Скачать резюме">
 
 	</div>
-
-	<div class="main2">
-		<h2>Что я умею:</h2>
-	</div>
-	<ul>
-		<li>Веб-дизайн: Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Enim, temporibus.</li>
-		<li>Разработка: Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Deleniti, iusto!</li>
-		<li>CEO-оптимизация: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, ad.</li>
-		<li>Маркетинг: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quae, non iste accusamus commodi itaque?</li>
-	</ul>
+	<nav class="main2nav">
+		<div class="main2">
+			<h2>Что я умею:</h2>
+		</div>
+		<ul>
+			<li><span>Веб-дизайн</span><br> Lorem, ipsum dolor sit, amet<br> consectetur adipisicing elit.<br> Enim, temporibus.</li>
+			<li><span>Разработка</span><br> Lorem ipsum dolor sit, amet,<br> consectetur adipisicing elit.<br> Deleniti, iusto!</li>
+			<li><span>CEO-оптимизация</span><br> Lorem ipsum dolor sit amet, elit,<br> adipisicing elit.<br> Dolores, ad.</li>
+			<li><span>Маркетинг</span><br> Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Nostrum quae,<br> non iste accusamus commodi itaque?</li>
+		</ul>
+	</nav>
 
 	<div class="main3">
 		<h2>Кейсы</h2>
+		<p class="kaces">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error officiis quos dolor maxime, modi quia.</p>
 				<img src="img/Кейсы.png" alt="">
-		<h3>CLIENT: <br><h4>Какая-то компания.</h4> </h3>
-
-		<h3>WEBSITE: <br> https://www.website.com <br> </h3>
-
+		<h3 class="client1">CLIENT:</h3> <br><h4 class="client">Какая-то компания.</h4> <h3 class="projekt1">Название проекта <br><h5 class="projekt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt reiciendis tempore molestias commodi tempora dolorem harum maiores minus iste repudiandae exercitationem saepe ex nihil illo quod esse voluptatibus,<br> est debitis! Qui corporis eaque in assumenda magnam deserunt consequatur commodi, ea veniam atque laborum rem dolorem amet ipsum,<br> veritatis quam excepturi.
+		<h3 class="website1">WEBSITE:</h3> <br> <h4 class="website">https://www.website.com</h4> <br>
 		<input type="submit" value="VISIT LIVE SITE">
 
-		<h3>Название проекта <br><h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam recusandae fugiat voluptatem doloribus provident. Placeat.</h5></h3>
+		
 	</div>
 
 	<div class="main4">
 		<h2>Расчёт стоимости</h2>
 	</div>
 
-	<form action="$">
-		<h3>Тип сайта</h3>
-		<input type="text" name="Tipe_site" placeholder="Выбериите пункт"> <select name="Tipe_site" id="1"></select>
-		<h3>Дизайн</h3>
-		<input type="text" name="Dizayn" placeholder="Выбериите пункт"> <select name="Dizayn" id="2"></select>
-		<h3>Адаптивность</h3>
-		<input type="text" name="adapt" placeholder="Выбериите пункт"> <select name="adapt" id="3"></select>
+	<form action="$" class="form">
+		<h3 class="tipe">Тип сайта</h3>
+		<select name="Tipe_site" id="1"></select>
+		<h3 class="dizayn">Дизайн</h3>
+		<select name="dizayn" id="2"></select>
+		<h3 class="adapt">Адаптивность</h3>
+		<select name="adapt" id="3"></select>
 	</form>
-	<div>
+	<div class="itog">
 		<h4>Стоимость:  0</h4>
 		<h4>Сроки:  0</h4>
 	</div>
 
-	<div>
+	<div class="stat">
 		<h2>Немного статистики</h2>
 		<h3>Счастливых клиентов: 0</h3>
 		<h3>Часов работы: 0</h3>
@@ -96,26 +98,30 @@
 		<h3>Наград получено: 0</h3>
 	</div>
 
-	<div>
+	<div class="otzv">
 		<h2>Отзывы: </h2>
-		<h4>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur officia harum vel, impedit beatae inventore <br>fugit maxime tempora delectus architecto. Dolores voluptatum id eum. Nostrum eveniet enim saepe fugit facilis". <br><b>Михаил</b>, Ген директор ПАО "Газпром"</h4>
+		<img src="img/otzv.jpg" alt="">
+		<h4>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur officia harum vel, <br> impedit beatae inventore fugit maxime tempora delectus architecto. Dolores voluptatum id eum. <br> Nostrum eveniet enim saepe fugit facilis".<br><b>Михаил</b>, Ген директор ПАО "Газпром"</h4>
 	</div>
 
-	<div>
-		<h2>Мои контакты</h2>
+	<div class="contakt">
+		<h2 class="kontakt">Мои контакты</h2>
 		<h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, et.</h4>
-		<h3>Адрес: <br>Санкт-Петербург<br>Невский проспект 11</h3>
-		<h3>Почта: <br>info@companyname.com</h3>
-		<h3>Телефон: <br>+7 999 999-99-99</h3>
+		<h3>Санкт-Петербург<br>Невский проспект 11</h3>
+		<h3>info@companyname.com</h3>
+		<h3>+7 999 999-99-99</h3>
+
+		<form action="$" class="message">
+			<h2>Оставте мне сообщение</h2>
+			<input type="text" name="name" class="name" placeholder="Введите имя">
+			<input type="text" name="Email" class="Email" placeholder="Введите Email">
+			<br><textarea name="message" id="1" cols="112" rows="5" placeholder="Введите сообщение"></textarea><br>
+			<input type="reset" class="otpravit" value="Отправить">
+		</form>
 	</div>
 
-	<form action="$">
-		<h2>Оставте мне сообщение</h2>
-		<input type="text" name="name" placeholder="Введите имя">
-		<input type="text" name="Email" placeholder="Введите Email">
-		<br><input type="text"  name="message" placeholder="Введите сообщение">
-		<input type="reset" value="Отправить">
-	</form>
-
+	<div class="map">
+		<img src="img/map.jpg" alt="">
+	</div>
 </body>
 </html>
